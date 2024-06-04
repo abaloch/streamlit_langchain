@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 
-st.title('NHR Bot')
+st.title('🏥 NHR Bot')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
